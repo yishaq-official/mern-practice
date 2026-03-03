@@ -3,7 +3,7 @@ import React from 'react'
 const Signup = () => {
   return (
     <div>
-      <form className='flex flex-col max-w-[30%] justify-center mt-4 mx-auto border-2 rounded-2xl p-10'>
+      <form className='flex flex-col max-w-[30%] max-[720px]:max-w-[50%] max-[361px]:max-w-[90%] justify-center mt-4 mx-auto border-2 border-gray-200 rounded-2xl p-10 shadow-emerald-600 shadow-md'>
         <h1 className='text-3xl text-center text-orange-600 font-bold'>Signup</h1>
 
         <label htmlFor="name" >Full name: </label>
